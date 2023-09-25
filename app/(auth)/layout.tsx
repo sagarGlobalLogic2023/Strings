@@ -5,7 +5,10 @@ import '../globals.css';
 
 export const metadata = {
     title: 'Strings',
-    description: 'A Next.js 13 Meta Strings Application'
+    description: 'A Next.js 13 Meta Strings Application',
+    icons: {
+        icon: "/assets/logo.svg"
+    }
 };
 
 const inter = Inter({ subsets: ["latin"]});
