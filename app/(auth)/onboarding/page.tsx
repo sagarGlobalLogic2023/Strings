@@ -7,7 +7,7 @@ async function Page() {
 
     const userInfo: any = {};
 
-    const userData = {
+    const userData: any = {
         id: user?.id,
         objectId: userInfo?._id,
         username: userInfo?.username || user?.username,
